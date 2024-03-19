@@ -4,6 +4,18 @@ https://nodejs.org/en >> Install
 https://git-scm.com/downloads >> Install
 https://github.com/ >> Create Account
 
+extension
+> vscode-icons
+> githistory
+> gitlens
+> spellcheck
+> Eslint
+> Tabnine
+
+Chorme
+> Json-viewer
+(https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
+
 Course Content :
 NPM
 Basic NodeJS(in built)(Os,file,http)
@@ -103,3 +115,12 @@ addition of key values will not effect the execution of the code
 ** NodeJs must be installed in laptop
 > go inside folder using terminal/cmd
 > npm i packagename/ npm install packagename
+
+package-lock : 
+> Dependency tree for the dependencies that are installed in the package.json 
+
+node_modules :
+> Contains all the packages you have installed in the project
+
+.gitignore :
+> What all things we don't want to push to git

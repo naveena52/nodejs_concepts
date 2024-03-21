@@ -10,4 +10,4 @@ let server = http.createServer((req,res)=>{
         res.end();
     })
 }) 
-server.listen(6700) 
+server.listen(6300) 

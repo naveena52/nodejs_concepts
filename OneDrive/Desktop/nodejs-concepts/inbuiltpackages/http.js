@@ -5,7 +5,8 @@ let http= require('http');
 let server= http.createServer((req,res)=>
 {
     res.write('<h1>This is node server<h1>');
+    res.write('<h1>This is node server created manually <h1>');
     res.end()
 
 })
-server.listen(6700)
+server.listen(7600)

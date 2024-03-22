@@ -154,3 +154,48 @@ dev dependency
 
 callback in node :
 A callback in Node is a non-blocking function that executes upon task completion, enabling asynchronous processing. It facilitates scalability by allowing Nodejs to handle multiple requests without waiting for operations to conclude, as exemplified in file I/O scenarios.
+
+/////Step to install global package
+#window
+> open cmd as admin
+> npm i -g nodemon
+
+#mac /linux
+> open terminal
+> sudo npm i -g nodemon
+.env file importance :
+application will be run on mutliple servers like [dev,test,prod] for different applications
+different port numbers will be opened and if we give any static number like port=3000 in one application
+then rest of the other applications can not use the same port right bz that port is not opened for that application so that's the reason .env come into exist
+>with the help .env variable  we can configure the port and many other sensitive data separately for different applications like .env.dev -->for dev application ,.env.test etc.,
+>A/c to the application we will configure them to their respective application
+
+Es5
+Ecma Script
+Es6
+Ecma Script
+
+var a = 10
+"my age is "+a
+"my age is 10"
+
+
+var a = 10
+`my age is ${a}`
+"my age is 10"
+
+appbk1.js : Why Express router?
+IN ths file we make the route for category and products which will work fine but when we create the 
+details route under the category and products with same name [Mutliple route under the one route title] it will fetch the data by first in first out basis which is not a good approach as a developers 
+>> To over come the above we using the next level concept Express Router
+
+Express Router :
+With this we can create the multiple route under the one route title
+
+ Middleware :
+ These are the supporting libraries which help to more things to done for us in similar pattern
+ we can maintain the logs of the applications by using middleware known as margon 
+
+EJS :
+stands for Embedded JavaScript Template 
+it will 
